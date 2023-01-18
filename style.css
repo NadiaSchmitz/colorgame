@@ -1,0 +1,89 @@
+#container {
+    height: calc(100vH);
+    font-family: Roboto;
+    background-color: rgb(41, 40, 40);
+    padding: 200px 0 0 0;
+}
+
+.game_wrapper {
+    width: 600px;
+    height: 450px;
+    color: #ffffff;
+    background: rgb(0 0 0) radial-gradient(circle at 50% 0, rgba(255,255,255,.65), rgb(76 76 76 / 35%));
+    box-shadow: inset rgb(0 0 0 / 60%) 0 -3px 8px, inset rgb(255 255 255 / 70%) 0 3px 8px, rgb(0 0 0 / 80%) 0 3px 8px -3px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 30px;;
+}
+
+.game_header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.game_content {
+    margin: 0 0 50px 0;
+}
+
+.form_wrapper,
+.demo_wrapper {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 5px);
+}
+
+.form_item {
+    box-sizing: border-box;
+    height: 80px;
+    padding: 30px 0 0 0;
+}
+
+.color {
+    display: inline-block;
+    width: 45px;
+}
+
+.form_item input {
+    width: 140px;
+    margin: 0 20px 0 0;
+}
+
+.color_screen {
+    height: 240px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+.game_footer {
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgb(41, 40, 40);
+    border: 2px solid #3C79F5;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s 0s ease;
+    -moz-transition: all 0.5s 0s ease;
+    -o-transition: all 0.5s 0s ease;
+    transition: all 0.5s 0s ease;
+}
+
+button:hover {
+    background-color: #3C79F5;
+}
+
+button:active {
+    border: 2px solid #2DCDDF;
+    background-color: #2DCDDF;
+}
+
+.reset {
+    margin: 0 10px 0 0;
+}
