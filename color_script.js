@@ -1,5 +1,3 @@
-
-
 var red_range = document.getElementById('red');
 var red_value = red_range.value;
 var red_index = document.getElementById('red_value');
