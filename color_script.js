@@ -36,13 +36,13 @@ function color_range() {
 
 function reset() {
     red_value = 255;
-    green_value = 195;
-    blue_value = 0;
-    red_range.setAttribute('value', red_value);
+    green_value = 255;
+    blue_value = 255;
+    red_range.value = red_value;
     red_index.innerHTML = red_value;
-    green_range.setAttribute('value', green_value);
+    green_range.value = red_value;
     green_index.innerHTML = green_value;
-    blue_range.setAttribute('value', blue_value);
+    blue_range.value = blue_value;
     blue_index.innerHTML = blue_value;
     color = "rgb(" + red_value + "," + green_value + "," + blue_value +")";
     $('.color_screen').css('background-color', color);
@@ -52,11 +52,11 @@ function random() {
     red_value = Math.floor(Math.random() * 255);
     green_value = Math.floor(Math.random() * 255);
     blue_value = Math.floor(Math.random() * 255);
-    red_range.setAttribute('value', red_value);
+    red_range.value = red_value;
     red_index.innerHTML = red_value;
-    green_range.setAttribute('value', green_value);
+    green_range.value = red_value;
     green_index.innerHTML = green_value;
-    blue_range.setAttribute('value', blue_value);
+    blue_range.value = blue_value;
     blue_index.innerHTML = blue_value;
     color = "rgb(" + red_value + "," + green_value + "," + blue_value +")";
     $('.color_screen').css('background-color', color);
